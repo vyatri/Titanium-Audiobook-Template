@@ -1,0 +1,25 @@
+<Alloy>
+	<Window class="container">
+		<View module="ui" backgroundImage="bg.jpg" backgroundSize="cover">
+			<View id="darkscreen" />
+			<Button id="share" onSingletap="doShare" />
+			<Button id="playable" onSingletap="playstop" />
+			<Label id="playing_status" text="Ready" />
+			<View id="controlview">
+				<Button id="backward" class="minicontrol" onSingletap="doBackward" />
+				<Button id="reset" class="minicontrol" onSingletap="doStop" />
+				<Button id="forward" class="minicontrol" onSingletap="doForward" />				
+			</View>
+			<View id="binder">
+				<View id="topBorder" />
+				<View id="greenBg" />
+				<View id="bottomBorder" />
+				<View id="row">
+					<Label id="title" text='"Audiobook Title Here"' />
+					<Label id="author" text="Lecturer name." />
+					<Label id="courtesy" text="courtesy" />
+				</View>
+			</View>
+		</View>
+	</Window>
+</Alloy>

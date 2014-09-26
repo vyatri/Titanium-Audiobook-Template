@@ -1,0 +1,99 @@
+".container": {
+	backgroundColor:"white",
+	exitOnClose: true,
+	navBarHidden: true,
+    orientationModes: [Titanium.UI.PORTRAIT,Titanium.UI.UPSIDE_PORTRAIT]
+},
+"#darkscreen":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#000",
+	opacity: 0.2
+},
+"#topBorder":{
+	top: 0,
+	width: Ti.UI.FILL,
+	height: "2dp",
+	backgroundColor: "#788895",
+	opacity: 0.95
+},
+"#bottomBorder":{
+	bottom: 0,
+	width: Ti.UI.FILL,
+	height: "2dp",
+	backgroundColor: "#788895",
+	opacity: 0.95
+},
+"#greenBg":{
+	top: "2dp",
+	bottom: "2dp",
+	height: "100dp",
+	backgroundColor: "#141c1b",
+	opacity: 0.95,
+	width: Ti.UI.FILL
+},
+"#row":{
+	layout: "vertical",
+	top: "15dp",
+	bottom: "30dp",
+	width : Ti.UI.FILL,
+	height:"104dp"
+},
+"#binder":{
+	width: Ti.UI.FILL,
+	height: "104dp",
+	bottom: "5%"
+},
+"#share":{
+	top: "5dp",
+	right: "5dp",
+	color: "#fff",
+	font: {fontFamily: "icomoon", fontSize: "24sp"},
+	backgroundColor: "transparent",
+	backgroundImage: "none",
+	borderWidth: 0
+},
+"#title":{
+	color: "#e2e0e0",
+	font: {fontSize:"18dp", fontWeight: "bold"},
+	top: 0
+},
+"#author":{
+	color: "#e2e0e0",
+	font: {fontSize:"14dp", fontStyle:"italic"},
+	top: 0
+},
+"#courtesy":{
+	color: "#e2e0e0",
+	font: {fontSize:"11dp"},
+	top: "10dp"
+},
+"#controlview":{
+	width: Ti.UI.SIZE,
+	height: "50dp",
+	layout: "horizontal",
+	top:"55%"
+},
+".minicontrol":{
+	left: "10dp",
+	right: "10dp",
+	height: "50dp",
+	backgroundColor: "transparent",
+	font: {fontFamily: "icomoon", fontSize:"32sp"},
+	backgroundImage: "none",
+	borderWidth: 0,
+	color: "#fff"
+},
+"#playable":{
+	top: "20%",
+	backgroundColor: "transparent",
+	font: {fontFamily: "icomoon", fontSize:"130sp"},
+	backgroundImage: "none",
+	borderWidth: 0,
+	color: "#fff"
+},
+"#playing_status":{
+	color: "#e2e0e0",
+	font: {fontSize:"11dp"},
+	top: "50%"
+}

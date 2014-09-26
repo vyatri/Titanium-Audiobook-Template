@@ -1,0 +1,18 @@
+Welcome to your Audiobook Project
+
+For a quick audiobook project using Titanium,
+you may start by editing the following files:
+
+- tiapp.xml 		: for general settings
+- views/index.xml 	: to change title, lecturer, and courtesy
+- controllers/index.js	: to change audiofile location and duration
+- manifest			: to change appname
+
+..and -- of course -- everything on assets folder
+
+----------------------------------
+You are not allowed to use this or part of this project for unlawful purpose or along with unlawful contents.
+
+Make the best of technology for the best of our deen. Lawfully.
+
+Jazakumullahu khairan
